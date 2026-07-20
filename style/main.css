@@ -1,0 +1,203 @@
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body {
+  background-color: #f8fafc;
+  font-family: "Inter", sans-serif;
+}
+/* --------navbar------ */
+.nav-item .nav-photo {
+  width: 40px;
+  height: 40px;
+}
+.text-gray {
+  color: oklch(55.1% 0.027 264.364);
+}
+.bg-violet-6 {
+  background-color: oklch(54.1% 0.281 293.009);
+}
+.text-violet-6 {
+  color: oklch(54.1% 0.281 293.009);
+}
+.icon-book {
+  width: 45px;
+  height: 45px;
+}
+.bg-nav {
+  background-color: #fdfdfe;
+}
+.nav-link {
+  color: oklch(55.1% 0.027 264.364) !important;
+}
+.nav-link:hover {
+  color: oklch(37.3% 0.034 259.733) !important;
+  background-color: oklch(96.7% 0.003 264.542) !important;
+}
+.border-gray-1 {
+  border-color: oklch(96.7% 0.003 264.542);
+}
+.bg-amper-4 {
+  background-color: oklch(82.8% 0.189 84.429);
+}
+.bg-red-6 {
+  background-color: oklch(57.7% 0.245 27.325);
+}
+button.btn-add {
+  transition:
+    transform 0.2s ease-out,
+    box-shadow 0.2s ease-out;
+}
+.btn-add:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+.btn-add:active {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+/* ------------ */
+.text-icon-search {
+  color: #b8b7c5;
+}
+.input-color {
+  color: #99a1af;
+}
+#search-input::placeholder {
+  font-size: 16px;
+  color: #b8b7c5;
+  opacity: 1;
+}
+.search-bar {
+  width: 100%;
+}
+.outer {
+  border-radius: 12px;
+  border: 1px solid #dee2e6; /* Clean default border state */
+  transition:
+    box-shadow 0.25s ease-in-out,
+    border-color 0.25s ease-in-out;
+}
+.outer .input-group-text,
+.outer .form-control {
+  border: none !important;
+}
+.outer .form-control:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+.outer:focus-within {
+  border-color: #a842ff !important;
+  box-shadow: 0 0 10px 2px rgba(148, 23, 250, 0.25) !important;
+}
+.outer .input-group-text {
+  background-color: #ffffff !important;
+  border-top-left-radius: 12px !important;
+  border-bottom-left-radius: 12px !important;
+}
+.outer .form-control {
+  border-top-right-radius: 12px !important;
+  border-bottom-right-radius: 12px !important;
+}
+/* ---------------------- */
+.bg-pink {
+  background-color: #fff7ed;
+}
+.bg-red-1 {
+  background-color: #fff2f2;
+}
+/* ----modal------- */
+.bg-gray-btn {
+  background-color: oklch(96.7% 0.003 264.542);
+}
+.bg-gray-btn:hover {
+  background-color: oklch(92.8% 0.006 264.531);
+}
+.bg-purple-btn {
+  background-color: oklch(54.1% 0.281 293.009);
+}
+.bg-purple-btn:hover {
+  background-color: oklch(60.6% 0.25 292.717);
+}
+.modal-footer {
+  flex-wrap: nowrap;
+}
+.modal-header button.btn-close:focus {
+  box-shadow: none;
+}
+.close-btn-color {
+  color: oklch(70.7% 0.022 261.325);
+}
+.modal-header button.btn-close:hover {
+  color: oklch(44.6% 0.03 256.802);
+  background-color: oklch(96.7% 0.003 264.542);
+}
+/* ----------card-------- */
+.avatar-box {
+  width: 40px;
+  height: 40px;
+}
+.bg-blue {
+  background-color: #008fed;
+}
+.bg-light-blue {
+  background-color: #dbeafe;
+}
+.text-purple {
+  color: #7f22fe;
+}
+.bg-light-purple {
+  background-color: #ede9fe;
+}
+.bg-light-green {
+  background-color: #d0fae5;
+}
+.micro-font {
+  font-size: 11px;
+}
+.tel-card {
+  background-color: oklch(97.9% 0.021 166.113);
+}
+.tel-card:hover {
+  background-color: oklch(95% 0.052 163.051);
+}
+.mail-card {
+  background-color: #f5f3ff;
+}
+.mail-card:hover {
+  background-color: oklch(87.2% 0.01 258.338);
+}
+.mail-card:hover .text-purple {
+  color: oklch(82.8% 0.189 84.429);
+}
+.favorite-btn:hover,
+.emergency-btn:hover,
+.edit-btn:hover,
+.delete-btn:hover {
+  background-color: oklch(92.8% 0.006 264.531) !important;
+}
+.favorite-btn:hover .fa-star {
+  color: oklch(82.8% 0.189 84.429) !important;
+}
+.emergency-btn:hover .fa-heart,
+.delete-btn:hover .fa-trash-can {
+  color: oklch(64.5% 0.246 16.439) !important;
+}
+.edit-btn:hover .fa-pen {
+  color: oklch(51.1% 0.262 276.966) !important;
+}
+.bg-gray-footer {
+  background-color: #fafbfc;
+}
+.bg-light-rose{
+  background-color: #FFF1F2;
+}
+.position-right-top{
+  left:80%;
+  top: -10%;
+}
+.position-right-bottom{
+  left:80%;
+  bottom: -10%;
+}
